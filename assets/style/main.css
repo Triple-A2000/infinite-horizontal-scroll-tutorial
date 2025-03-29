@@ -6,6 +6,16 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Poppins', 'Sofia-sans', Arial, Helvetica, sans-serif;
+    background-color: #020813;
+}
+
 .wrapper {
     width: 90%;
     max-width: 1200px;
@@ -25,18 +35,25 @@
 
 @keyframes scrollLeft {
     to {
-        left: -100px;
+        left: -150px;
     }
 }
 
 .item {
-    width: 200px;
-    height: 100px;
-    background-color: blue;
+    width: 150px;
+    height: 50px;
+    background-color: rgba(22, 22, 77, 0.849);
     border-radius: 10px;
     position: absolute;
-    left: calc(200px * 8);
+    left: max(calc(150px * 8), 100%);
     animation: scrollLeft 30s linear infinite;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Poppins', 'Sofia-sans', Arial, Helvetica, sans-serif;
 }
 
 .item-1 {
