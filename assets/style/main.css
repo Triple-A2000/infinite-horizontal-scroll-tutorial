@@ -8,6 +8,13 @@
     margin-inline: auto;
     position: relative;
     margin-top: 5rem;
+    overflow: hidden;
+}
+
+@keyframes scrollLeft {
+    to {
+        left: -100px;
+    }
 }
 
 .item {
@@ -16,4 +23,6 @@
     background-color: blue;
     border-radius: 10px;
     position: absolute;
+    left: 100%;
+    animation: scrollLeft 3s linear infinite;
 }
