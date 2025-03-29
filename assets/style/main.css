@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+.wrapper {
+    border: 1px solid black;
+    width: 90%;
+    max-width: 1600px;
+    height: 100px;
+    margin-inline: auto;
+    position: relative;
+    margin-top: 5rem;
+}
+
+.item {
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    border-radius: 10px;
+    position: absolute;
+}
