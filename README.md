@@ -1,4 +1,4 @@
-# Scrolling Items Animation Project
+# Infinite-Horizontal-Scroll-Tutorial
 
 This project demonstrates a smooth left-scrolling animation effect using HTML and CSS. The animation creates an infinite scrolling effect where items move from right to left seamlessly.
 
